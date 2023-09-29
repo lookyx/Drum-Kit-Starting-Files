@@ -1,6 +1,10 @@
 // Selects button, event listener to button, click, point to function handleClick
-document.querySelector('button').addEventListener("click", handleClick);
+document.querySelectorAll('.drum').forEach(function(button) {
+    button.addEventListener("click", function() {
+        alert("I got clicked!")
+    });
+});
 
-function handleClick() {
-    alert("I got clicked!");
-}
+
+    
+
