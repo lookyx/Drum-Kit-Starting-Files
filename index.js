@@ -37,6 +37,10 @@ document.querySelectorAll('.drum').forEach(function(button) {
     });
 });
 
+document.addEventListener("keypress", function() {
+    alert("Key was pressed!");
+});
+
 /*var audio = new Audio('./sounds/tom-1.mp3');
 audio.play();*/
     
